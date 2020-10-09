@@ -43,6 +43,8 @@ img {
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--title-light-theme-colour);
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .item-underline {
@@ -217,6 +219,8 @@ img {
 .header-link {
   margin-right: 43px;
   color: var(--description-theme-colour);
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .header-tel-link:hover {
   color: var(--accent-color);
@@ -227,6 +231,8 @@ img {
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--description-theme-colour);
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 /* ================HERO==================== */
@@ -371,6 +377,8 @@ img {
   width: 44px;
   height: 44px;
   border-radius: 50%;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .social-list-svg {
   width: 20px;
@@ -431,6 +439,9 @@ img {
   letter-spacing: 0.03em;
   color: var(--title-light-theme-colour);
   padding: 8px 20px;
+  cursor: pointer;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .potfolio-btn:hover,
 .potfolio-btn:focus {
@@ -476,6 +487,8 @@ img {
 }
 .item {
   border: 1px solid #eeeeee;
+  transition-duration: 50ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .item:hover .overlay {
   display: flex;
@@ -501,6 +514,8 @@ img {
   opacity: 0;
   transform: translateY(100%);
   transition: 500ms linear;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .overlay-text {
@@ -570,6 +585,8 @@ img {
   border: 1px solid #afb1b8;
   border-radius: 4px;
   fill: #afb1b8;
+  transition-duration: 250ms;
+  transition-duration: cubic-bezier(0.4, 0, 0.2, 1);
 }
 /* <!-- =============clients end================= --> */
 .footer .container {
@@ -601,6 +618,9 @@ img {
   border-radius: 50%;
   margin-top: 20px;
   background: rgba(255, 255, 255, 0.1);
+  cursor: pointer;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .footer-social-link-item:not(:last-child) {
   margin-right: 10px;
@@ -616,3 +636,5 @@ img {
 .footer-social-link-item:hover {
   background-color: var(--accent-color);
 }
+transition-duration: 250ms;
+transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
