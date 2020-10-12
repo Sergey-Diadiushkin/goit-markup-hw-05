@@ -695,7 +695,8 @@ img {
   background-image: url(../images/qualitys/close-black.svg);
 }
 
-/* .close-btn-svg {
+/* 
+.close-btn-svg {
   display: inline-block;
   contain: "";
   width: 16px;
