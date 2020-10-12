@@ -672,17 +672,6 @@ img {
   height: 581px;
   background-color: #fff;
 }
-.close-btn-svg {
-  display: inline-block;
-  contain: "";
-  width: 16px;
-  height: 12px;
-  position: absolute;
-  width: 18px;
-  height: 18px;
-  background-size: contain;
-  color: #000000;
-}
 
 .close-btn {
   position: absolute;
@@ -690,7 +679,7 @@ img {
   right: 8px;
   width: 30px;
   height: 30px;
-  /* background-color: #fff; */
+  background-color: #fff;
   border-radius: 50%;
   border: 1px solid rgba(0, 0, 0, 0.1);
   cursor: pointer;
@@ -705,3 +694,15 @@ img {
   margin: auto;
   background-image: url(../images/qualitys/close-black.svg);
 }
+
+/* .close-btn-svg {
+  display: inline-block;
+  contain: "";
+  width: 16px;
+  height: 12px;
+  position: absolute;
+  width: 18px;
+  height: 18px;
+  background-size: contain;
+  color: #000000;
+} */
